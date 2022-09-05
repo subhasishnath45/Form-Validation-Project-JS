@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bs-success-rgb: 25,135,84;
+    --bs-danger-rgb: 220,53,69;
+}
+body {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+form{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.success {
+    border: 3px solid rgba(var(--bs-success-rgb),1);
+}
+
+.error {
+    border: 3px solid rgba(var(--bs-danger-rgb),1);
+}
